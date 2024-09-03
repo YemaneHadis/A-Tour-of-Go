@@ -37,9 +37,9 @@ func main() {
 	varaibleType(127)
 	var a string
 	var b string
-	a = "yemane"
+	a = "stringA"
 
-	b = "hadis"
+	b = "StringB"
 	fmt.Printf("Before Swap  A %s,  B %s", a, b)
 	a, b = swap(a, b)
 	fmt.Printf("After Swap A  %s,  B %s", a, b)
